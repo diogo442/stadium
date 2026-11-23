@@ -1,7 +1,7 @@
 const config = {
     db: process.env.MONGO_URI,
     secret: process.env.JWT_SECRET,
-    expiresPassword: 86400, // expires in 24hours
+    expiresPassword: 86400,
     saltRounds: 10
  }
  
